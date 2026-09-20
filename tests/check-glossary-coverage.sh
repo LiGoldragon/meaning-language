@@ -29,6 +29,11 @@ for entry in glossary_entries:
         raise SystemExit(f'empty English metadata: {entry.get("schema_id")}')
     if entry.get('iast') is not None and (not isinstance(entry['iast'], str) or not entry['iast'].strip()):
         raise SystemExit(f'empty IAST metadata: {entry.get("schema_id")}')
+known_sanskrit = {'Karman', 'Samanya', 'Visesa', 'Samavaya', 'Abhava'}
+by_schema = {entry.get('schema_id'): entry for entry in glossary_entries}
+for identifier in known_sanskrit:
+    if not by_schema.get(identifier, {}).get('iast'):
+        raise SystemExit(f'missing required IAST metadata: {identifier}')
 for label, actual in [('glossary', glossary_ids), ('mappings', mapping_ids)]:
     missing = sorted(expected - actual)
     if missing:

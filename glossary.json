@@ -4,8 +4,8 @@
     {
       "id": "Abhava",
       "schema_id": "Abhava",
-      "iast": null,
-      "english": "Abhava"
+      "iast": "abhāva",
+      "english": "Absence"
     },
     {
       "id": "Act",
@@ -92,55 +92,55 @@
       "schema_id": "Dravya"
     },
     {
-      "id": "Akasa",
+      "id": "Dravya.Akasa",
       "iast": "ākāśa",
       "english": "Ether",
       "schema_id": "Dravya.Akasa"
     },
     {
-      "id": "Ap",
+      "id": "Dravya.Ap",
       "iast": "ap",
       "english": "Water",
       "schema_id": "Dravya.Ap"
     },
     {
-      "id": "Atman",
+      "id": "Dravya.Atman",
       "iast": "ātman",
       "english": "Self",
       "schema_id": "Dravya.Atman"
     },
     {
-      "id": "Dik",
+      "id": "Dravya.Dik",
       "iast": "dik",
       "english": "DirectionOrSpace",
       "schema_id": "Dravya.Dik"
     },
     {
-      "id": "Kala",
+      "id": "Dravya.Kala",
       "iast": "kāla",
       "english": "Time",
       "schema_id": "Dravya.Kala"
     },
     {
-      "id": "Manas",
+      "id": "Dravya.Manas",
       "iast": "manas",
       "english": "Mind",
       "schema_id": "Dravya.Manas"
     },
     {
-      "id": "Prthivi",
+      "id": "Dravya.Prthivi",
       "iast": "pṛthivī",
       "english": "Earth",
       "schema_id": "Dravya.Prthivi"
     },
     {
-      "id": "Tejas",
+      "id": "Dravya.Tejas",
       "iast": "tejas",
       "english": "FireOrLight",
       "schema_id": "Dravya.Tejas"
     },
     {
-      "id": "Vayu",
+      "id": "Dravya.Vayu",
       "iast": "vāyu",
       "english": "Air",
       "schema_id": "Dravya.Vayu"
@@ -152,145 +152,145 @@
       "schema_id": "GunaKind"
     },
     {
-      "id": "Adharma",
+      "id": "GunaKind.Adharma",
       "iast": "adharma",
       "english": "Demerit",
       "schema_id": "GunaKind.Adharma"
     },
     {
-      "id": "Aparatva",
+      "id": "GunaKind.Aparatva",
       "iast": "aparatva",
       "english": "Posteriority",
       "schema_id": "GunaKind.Aparatva"
     },
     {
-      "id": "Buddhi",
+      "id": "GunaKind.Buddhi",
       "iast": "buddhi",
       "english": "Cognition",
       "schema_id": "GunaKind.Buddhi"
     },
     {
-      "id": "Dharma",
+      "id": "GunaKind.Dharma",
       "iast": "dharma",
       "english": "Merit",
       "schema_id": "GunaKind.Dharma"
     },
     {
-      "id": "Dravatva",
+      "id": "GunaKind.Dravatva",
       "iast": "dravatva",
       "english": "Fluidity",
       "schema_id": "GunaKind.Dravatva"
     },
     {
-      "id": "Duhkha",
+      "id": "GunaKind.Duhkha",
       "iast": "duḥkha",
       "english": "PainOrUnpleasantExperience",
       "schema_id": "GunaKind.Duhkha"
     },
     {
-      "id": "Dvesa",
+      "id": "GunaKind.Dvesa",
       "iast": "dveṣa",
       "english": "AversionWishingAway",
       "schema_id": "GunaKind.Dvesa"
     },
     {
-      "id": "Gandha",
+      "id": "GunaKind.Gandha",
       "iast": "gandha",
       "english": "Odour",
       "schema_id": "GunaKind.Gandha"
     },
     {
-      "id": "Gurutva",
+      "id": "GunaKind.Gurutva",
       "iast": "gurutva",
       "english": "Heaviness",
       "schema_id": "GunaKind.Gurutva"
     },
     {
-      "id": "Iccha",
+      "id": "GunaKind.Iccha",
       "iast": "icchā",
       "english": "DesireToObtain",
       "schema_id": "GunaKind.Iccha"
     },
     {
-      "id": "Paratva",
+      "id": "GunaKind.Paratva",
       "iast": "paratva",
       "english": "Priority",
       "schema_id": "GunaKind.Paratva"
     },
     {
-      "id": "Parimana",
+      "id": "GunaKind.Parimana",
       "iast": "parimāṇa",
       "english": "MagnitudeOrMeasure",
       "schema_id": "GunaKind.Parimana"
     },
     {
-      "id": "Prayatna",
+      "id": "GunaKind.Prayatna",
       "iast": "prayatna",
       "english": "EffortOrVolition",
       "schema_id": "GunaKind.Prayatna"
     },
     {
-      "id": "Prthaktva",
+      "id": "GunaKind.Prthaktva",
       "iast": "pṛthaktva",
       "english": "Separateness",
       "schema_id": "GunaKind.Prthaktva"
     },
     {
-      "id": "Rasa",
+      "id": "GunaKind.Rasa",
       "iast": "rasa",
       "english": "Taste",
       "schema_id": "GunaKind.Rasa"
     },
     {
-      "id": "Rupa",
+      "id": "GunaKind.Rupa",
       "iast": "rūpa",
       "english": "ColourOrVisibleAppearance",
       "schema_id": "GunaKind.Rupa"
     },
     {
-      "id": "Sabda",
+      "id": "GunaKind.Sabda",
       "iast": "śabda",
       "english": "Sound",
       "schema_id": "GunaKind.Sabda"
     },
     {
-      "id": "Samskara",
+      "id": "GunaKind.Samskara",
       "iast": "saṃskāra",
       "english": "DispositionOrLatentImpression",
       "schema_id": "GunaKind.Samskara"
     },
     {
-      "id": "Samyoga",
+      "id": "GunaKind.Samyoga",
       "iast": "saṃyoga",
       "english": "ConjunctionOrContact",
       "schema_id": "GunaKind.Samyoga"
     },
     {
-      "id": "Sankhya",
+      "id": "GunaKind.Sankhya",
       "iast": "saṅkhyā",
       "english": "Number",
       "schema_id": "GunaKind.Sankhya"
     },
     {
-      "id": "Sneha",
+      "id": "GunaKind.Sneha",
       "iast": "sneha",
       "english": "Viscidity",
       "schema_id": "GunaKind.Sneha"
     },
     {
-      "id": "Sparsa",
+      "id": "GunaKind.Sparsa",
       "iast": "sparśa",
       "english": "TactileQuality",
       "schema_id": "GunaKind.Sparsa"
     },
     {
-      "id": "Sukha",
+      "id": "GunaKind.Sukha",
       "iast": "sukha",
       "english": "Pleasure",
       "schema_id": "GunaKind.Sukha"
     },
     {
-      "id": "Vibhaga",
+      "id": "GunaKind.Vibhaga",
       "iast": "vibhāga",
       "english": "DisjunctionOrSeparation",
       "schema_id": "GunaKind.Vibhaga"
@@ -320,37 +320,37 @@
       "schema_id": "KarakaRole"
     },
     {
-      "id": "Adhikarana",
+      "id": "KarakaRole.Adhikarana",
       "iast": "adhikaraṇa",
       "english": "LocusOrSubstratum",
       "schema_id": "KarakaRole.Adhikarana"
     },
     {
-      "id": "Apadana",
+      "id": "KarakaRole.Apadana",
       "iast": "apādāna",
       "english": "FixedPointOfDeparture",
       "schema_id": "KarakaRole.Apadana"
     },
     {
-      "id": "Karana",
+      "id": "KarakaRole.Karana",
       "iast": "karaṇa",
       "english": "MostEffectiveInstrument",
       "schema_id": "KarakaRole.Karana"
     },
     {
-      "id": "KarmanKaraka",
+      "id": "KarakaRole.KarmanKaraka",
       "iast": "karman",
       "english": "MostDesiredObject",
       "schema_id": "KarakaRole.KarmanKaraka"
     },
     {
-      "id": "Kartr",
+      "id": "KarakaRole.Kartr",
       "iast": "kartṛ",
       "english": "IndependentAgent",
       "schema_id": "KarakaRole.Kartr"
     },
     {
-      "id": "Sampradana",
+      "id": "KarakaRole.Sampradana",
       "iast": "sampradāna",
       "english": "RecipientOrBeneficiary",
       "schema_id": "KarakaRole.Sampradana"
@@ -358,8 +358,8 @@
     {
       "id": "Karman",
       "schema_id": "Karman",
-      "iast": null,
-      "english": "Karman"
+      "iast": "karman",
+      "english": "MotionOrAction"
     },
     {
       "id": "Lakara",
@@ -368,61 +368,61 @@
       "schema_id": "Lakara"
     },
     {
-      "id": "Lan",
+      "id": "Lakara.Lan",
       "iast": "laṅ",
       "english": "Imperfect",
       "schema_id": "Lakara.Lan"
     },
     {
-      "id": "Lat",
+      "id": "Lakara.Lat",
       "iast": "laṭ",
       "english": "Present",
       "schema_id": "Lakara.Lat"
     },
     {
-      "id": "Let",
+      "id": "Lakara.Let",
       "iast": "leṭ",
       "english": "VedicSubjunctive",
       "schema_id": "Lakara.Let"
     },
     {
-      "id": "Lin",
+      "id": "Lakara.Lin",
       "iast": "liṅ",
       "english": "OptativeOrBenedictive",
       "schema_id": "Lakara.Lin"
     },
     {
-      "id": "Lit",
+      "id": "Lakara.Lit",
       "iast": "liṭ",
       "english": "PerfectOrParoksaPast",
       "schema_id": "Lakara.Lit"
     },
     {
-      "id": "Lot",
+      "id": "Lakara.Lot",
       "iast": "loṭ",
       "english": "Imperative",
       "schema_id": "Lakara.Lot"
     },
     {
-      "id": "Lrn",
+      "id": "Lakara.Lrn",
       "iast": "lṛṅ",
       "english": "Conditional",
       "schema_id": "Lakara.Lrn"
     },
     {
-      "id": "Lrt",
+      "id": "Lakara.Lrt",
       "iast": "lṛṭ",
       "english": "SimpleFuture",
       "schema_id": "Lakara.Lrt"
     },
     {
-      "id": "Lun",
+      "id": "Lakara.Lun",
       "iast": "luṅ",
       "english": "Aorist",
       "schema_id": "Lakara.Lun"
     },
     {
-      "id": "Lut",
+      "id": "Lakara.Lut",
       "iast": "luṭ",
       "english": "PeriphrasticFuture",
       "schema_id": "Lakara.Lut"
@@ -434,13 +434,13 @@
       "schema_id": "LinUse"
     },
     {
-      "id": "Benedictive",
+      "id": "LinUse.Benedictive",
       "iast": null,
       "english": "Benedictive",
       "schema_id": "LinUse.Benedictive"
     },
     {
-      "id": "Optative",
+      "id": "LinUse.Optative",
       "iast": null,
       "english": "Optative",
       "schema_id": "LinUse.Optative"
@@ -452,19 +452,19 @@
       "schema_id": "Linga"
     },
     {
-      "id": "Napumsaka",
+      "id": "Linga.Napumsaka",
       "iast": "napuṃsaka",
       "english": "Neuter",
       "schema_id": "Linga.Napumsaka"
     },
     {
-      "id": "Pum",
+      "id": "Linga.Pum",
       "iast": "puṃ",
       "english": "Masculine",
       "schema_id": "Linga.Pum"
     },
     {
-      "id": "Stri",
+      "id": "Linga.Stri",
       "iast": "strī",
       "english": "Feminine",
       "schema_id": "Linga.Stri"
@@ -500,7 +500,7 @@
       "schema_id": "Padartha"
     },
     {
-      "id": "Abhava",
+      "id": "Padartha.Abhava",
       "iast": "abhāva",
       "english": "Absence",
       "schema_id": "Padartha.Abhava"
@@ -512,31 +512,31 @@
       "english": "Dravya"
     },
     {
-      "id": "Guna",
+      "id": "Padartha.Guna",
       "iast": "guṇa",
       "english": "Quality",
       "schema_id": "Padartha.Guna"
     },
     {
-      "id": "Karman",
+      "id": "Padartha.Karman",
       "iast": "karman",
       "english": "MotionOrAction",
       "schema_id": "Padartha.Karman"
     },
     {
-      "id": "Samanya",
+      "id": "Padartha.Samanya",
       "iast": "sāmānya",
       "english": "Universality",
       "schema_id": "Padartha.Samanya"
     },
     {
-      "id": "Samavaya",
+      "id": "Padartha.Samavaya",
       "iast": "samavāya",
       "english": "InseparableInherence",
       "schema_id": "Padartha.Samavaya"
     },
     {
-      "id": "Visesa",
+      "id": "Padartha.Visesa",
       "iast": "viśeṣa",
       "english": "ParticularizingDifferentiator",
       "schema_id": "Padartha.Visesa"
@@ -548,19 +548,19 @@
       "schema_id": "Prayoga"
     },
     {
-      "id": "Bhave",
+      "id": "Prayoga.Bhave",
       "iast": "bhāve",
       "english": "ImpersonalVoice",
       "schema_id": "Prayoga.Bhave"
     },
     {
-      "id": "Karmani",
+      "id": "Prayoga.Karmani",
       "iast": "karmaṇi",
       "english": "PassiveVoice",
       "schema_id": "Prayoga.Karmani"
     },
     {
-      "id": "Kartari",
+      "id": "Prayoga.Kartari",
       "iast": "kartari",
       "english": "ActiveVoice",
       "schema_id": "Prayoga.Kartari"
@@ -572,19 +572,19 @@
       "schema_id": "Purusha"
     },
     {
-      "id": "Madhyama",
+      "id": "Purusha.Madhyama",
       "iast": "madhyama",
       "english": "SecondPerson",
       "schema_id": "Purusha.Madhyama"
     },
     {
-      "id": "Prathama",
+      "id": "Purusha.Prathama",
       "iast": "prathama",
       "english": "ThirdPerson",
       "schema_id": "Purusha.Prathama"
     },
     {
-      "id": "Uttama",
+      "id": "Purusha.Uttama",
       "iast": "uttama",
       "english": "FirstPerson",
       "schema_id": "Purusha.Uttama"
@@ -676,14 +676,14 @@
     {
       "id": "Samanya",
       "schema_id": "Samanya",
-      "iast": null,
-      "english": "Samanya"
+      "iast": "sāmānya",
+      "english": "Universality"
     },
     {
       "id": "Samavaya",
       "schema_id": "Samavaya",
-      "iast": null,
-      "english": "Samavaya"
+      "iast": "samavāya",
+      "english": "InseparableInherence"
     },
     {
       "id": "Statement",
@@ -728,13 +728,13 @@
       "schema_id": "StemComposition"
     },
     {
-      "id": "CompositionPending",
+      "id": "StemComposition.CompositionPending",
       "iast": null,
       "english": "PendingStemComposition",
       "schema_id": "StemComposition.CompositionPending"
     },
     {
-      "id": "Primary",
+      "id": "StemComposition.Primary",
       "iast": null,
       "english": "PrimaryStem",
       "schema_id": "StemComposition.Primary"
@@ -752,25 +752,25 @@
       "schema_id": "StemFormation"
     },
     {
-      "id": "Namadhatu",
+      "id": "StemFormation.Namadhatu",
       "iast": "nāma-dhātu",
       "english": "DenominativeFormation",
       "schema_id": "StemFormation.Namadhatu"
     },
     {
-      "id": "Nic",
+      "id": "StemFormation.Nic",
       "iast": "ṇic",
       "english": "CausativeFormation",
       "schema_id": "StemFormation.Nic"
     },
     {
-      "id": "San",
+      "id": "StemFormation.San",
       "iast": "san",
       "english": "DesiderativeFormation",
       "schema_id": "StemFormation.San"
     },
     {
-      "id": "Yan",
+      "id": "StemFormation.Yan",
       "iast": "yaṅ",
       "english": "IntensiveFormation",
       "schema_id": "StemFormation.Yan"
@@ -788,19 +788,19 @@
       "schema_id": "Vachana"
     },
     {
-      "id": "Bahu",
+      "id": "Vachana.Bahu",
       "iast": "bahu",
       "english": "Plural",
       "schema_id": "Vachana.Bahu"
     },
     {
-      "id": "Dvi",
+      "id": "Vachana.Dvi",
       "iast": "dvi",
       "english": "Dual",
       "schema_id": "Vachana.Dvi"
     },
     {
-      "id": "Eka",
+      "id": "Vachana.Eka",
       "iast": "eka",
       "english": "Singular",
       "schema_id": "Vachana.Eka"
@@ -832,8 +832,8 @@
     {
       "id": "Visesa",
       "schema_id": "Visesa",
-      "iast": null,
-      "english": "Visesa"
+      "iast": "viśeṣa",
+      "english": "ParticularizingDifferentiator"
     },
     {
       "id": "Padartha.Substance",

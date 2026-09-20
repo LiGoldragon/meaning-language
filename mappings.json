@@ -224,7 +224,7 @@
       "schema_id": "Dravya"
     },
     {
-      "id": "Akasa",
+      "id": "Dravya.Akasa",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -238,7 +238,7 @@
       "schema_id": "Dravya.Akasa"
     },
     {
-      "id": "Ap",
+      "id": "Dravya.Ap",
       "bfo": {
         "status": "Partial",
         "target": "BFO_0000040 material entity",
@@ -252,7 +252,7 @@
       "schema_id": "Dravya.Ap"
     },
     {
-      "id": "Atman",
+      "id": "Dravya.Atman",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -266,7 +266,7 @@
       "schema_id": "Dravya.Atman"
     },
     {
-      "id": "Dik",
+      "id": "Dravya.Dik",
       "bfo": {
         "status": "Partial",
         "target": "BFO_0000006 spatial region",
@@ -280,7 +280,7 @@
       "schema_id": "Dravya.Dik"
     },
     {
-      "id": "Kala",
+      "id": "Dravya.Kala",
       "bfo": {
         "status": "Analogy",
         "target": "BFO_0000008 temporal region",
@@ -294,7 +294,7 @@
       "schema_id": "Dravya.Kala"
     },
     {
-      "id": "Manas",
+      "id": "Dravya.Manas",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -308,7 +308,7 @@
       "schema_id": "Dravya.Manas"
     },
     {
-      "id": "Prthivi",
+      "id": "Dravya.Prthivi",
       "bfo": {
         "status": "Partial",
         "target": "BFO_0000040 material entity",
@@ -322,7 +322,7 @@
       "schema_id": "Dravya.Prthivi"
     },
     {
-      "id": "Tejas",
+      "id": "Dravya.Tejas",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -336,7 +336,7 @@
       "schema_id": "Dravya.Tejas"
     },
     {
-      "id": "Vayu",
+      "id": "Dravya.Vayu",
       "bfo": {
         "status": "Partial",
         "target": "BFO_0000040 material entity",
@@ -364,7 +364,7 @@
       "schema_id": "GunaKind"
     },
     {
-      "id": "Adharma",
+      "id": "GunaKind.Adharma",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -378,7 +378,7 @@
       "schema_id": "GunaKind.Adharma"
     },
     {
-      "id": "Aparatva",
+      "id": "GunaKind.Aparatva",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -392,7 +392,7 @@
       "schema_id": "GunaKind.Aparatva"
     },
     {
-      "id": "Buddhi",
+      "id": "GunaKind.Buddhi",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -406,7 +406,7 @@
       "schema_id": "GunaKind.Buddhi"
     },
     {
-      "id": "Dharma",
+      "id": "GunaKind.Dharma",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -420,7 +420,7 @@
       "schema_id": "GunaKind.Dharma"
     },
     {
-      "id": "Dravatva",
+      "id": "GunaKind.Dravatva",
       "bfo": {
         "status": "Partial",
         "target": "BFO_0000019 quality",
@@ -434,7 +434,7 @@
       "schema_id": "GunaKind.Dravatva"
     },
     {
-      "id": "Duhkha",
+      "id": "GunaKind.Duhkha",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -448,7 +448,7 @@
       "schema_id": "GunaKind.Duhkha"
     },
     {
-      "id": "Dvesa",
+      "id": "GunaKind.Dvesa",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -462,7 +462,7 @@
       "schema_id": "GunaKind.Dvesa"
     },
     {
-      "id": "Gandha",
+      "id": "GunaKind.Gandha",
       "bfo": {
         "status": "Partial",
         "target": "BFO_0000019 quality",
@@ -476,7 +476,7 @@
       "schema_id": "GunaKind.Gandha"
     },
     {
-      "id": "Gurutva",
+      "id": "GunaKind.Gurutva",
       "bfo": {
         "status": "Partial",
         "target": "BFO_0000019 quality",
@@ -490,7 +490,7 @@
       "schema_id": "GunaKind.Gurutva"
     },
     {
-      "id": "Iccha",
+      "id": "GunaKind.Iccha",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -504,7 +504,7 @@
       "schema_id": "GunaKind.Iccha"
     },
     {
-      "id": "Paratva",
+      "id": "GunaKind.Paratva",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -518,7 +518,7 @@
       "schema_id": "GunaKind.Paratva"
     },
     {
-      "id": "Parimana",
+      "id": "GunaKind.Parimana",
       "bfo": {
         "status": "Partial",
         "target": "BFO_0000019 quality",
@@ -532,7 +532,7 @@
       "schema_id": "GunaKind.Parimana"
     },
     {
-      "id": "Prayatna",
+      "id": "GunaKind.Prayatna",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -546,7 +546,7 @@
       "schema_id": "GunaKind.Prayatna"
     },
     {
-      "id": "Prthaktva",
+      "id": "GunaKind.Prthaktva",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -560,7 +560,7 @@
       "schema_id": "GunaKind.Prthaktva"
     },
     {
-      "id": "Rasa",
+      "id": "GunaKind.Rasa",
       "bfo": {
         "status": "Partial",
         "target": "BFO_0000019 quality",
@@ -574,7 +574,7 @@
       "schema_id": "GunaKind.Rasa"
     },
     {
-      "id": "Rupa",
+      "id": "GunaKind.Rupa",
       "bfo": {
         "status": "Partial",
         "target": "BFO_0000019 quality",
@@ -588,7 +588,7 @@
       "schema_id": "GunaKind.Rupa"
     },
     {
-      "id": "Sabda",
+      "id": "GunaKind.Sabda",
       "bfo": {
         "status": "Partial",
         "target": "BFO_0000019 quality",
@@ -602,7 +602,7 @@
       "schema_id": "GunaKind.Sabda"
     },
     {
-      "id": "Samskara",
+      "id": "GunaKind.Samskara",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -616,7 +616,7 @@
       "schema_id": "GunaKind.Samskara"
     },
     {
-      "id": "Samyoga",
+      "id": "GunaKind.Samyoga",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -630,7 +630,7 @@
       "schema_id": "GunaKind.Samyoga"
     },
     {
-      "id": "Sankhya",
+      "id": "GunaKind.Sankhya",
       "bfo": {
         "status": "Analogy",
         "target": "BFO_0000019 quality",
@@ -644,7 +644,7 @@
       "schema_id": "GunaKind.Sankhya"
     },
     {
-      "id": "Sneha",
+      "id": "GunaKind.Sneha",
       "bfo": {
         "status": "Partial",
         "target": "BFO_0000019 quality",
@@ -658,7 +658,7 @@
       "schema_id": "GunaKind.Sneha"
     },
     {
-      "id": "Sparsa",
+      "id": "GunaKind.Sparsa",
       "bfo": {
         "status": "Partial",
         "target": "BFO_0000019 quality",
@@ -672,7 +672,7 @@
       "schema_id": "GunaKind.Sparsa"
     },
     {
-      "id": "Sukha",
+      "id": "GunaKind.Sukha",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -686,7 +686,7 @@
       "schema_id": "GunaKind.Sukha"
     },
     {
-      "id": "Vibhaga",
+      "id": "GunaKind.Vibhaga",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -756,7 +756,7 @@
       "schema_id": "KarakaRole"
     },
     {
-      "id": "Adhikarana",
+      "id": "KarakaRole.Adhikarana",
       "bfo": {
         "status": "NotComparable",
         "target": null,
@@ -770,7 +770,7 @@
       "schema_id": "KarakaRole.Adhikarana"
     },
     {
-      "id": "Apadana",
+      "id": "KarakaRole.Apadana",
       "bfo": {
         "status": "NotComparable",
         "target": null,
@@ -784,7 +784,7 @@
       "schema_id": "KarakaRole.Apadana"
     },
     {
-      "id": "Karana",
+      "id": "KarakaRole.Karana",
       "bfo": {
         "status": "NotComparable",
         "target": null,
@@ -798,7 +798,7 @@
       "schema_id": "KarakaRole.Karana"
     },
     {
-      "id": "KarmanKaraka",
+      "id": "KarakaRole.KarmanKaraka",
       "bfo": {
         "status": "NotComparable",
         "target": null,
@@ -812,7 +812,7 @@
       "schema_id": "KarakaRole.KarmanKaraka"
     },
     {
-      "id": "Kartr",
+      "id": "KarakaRole.Kartr",
       "bfo": {
         "status": "NotComparable",
         "target": null,
@@ -826,7 +826,7 @@
       "schema_id": "KarakaRole.Kartr"
     },
     {
-      "id": "Sampradana",
+      "id": "KarakaRole.Sampradana",
       "bfo": {
         "status": "NotComparable",
         "target": null,
@@ -1177,7 +1177,7 @@
       "schema_id": "Padartha"
     },
     {
-      "id": "Abhava",
+      "id": "Padartha.Abhava",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -1205,7 +1205,7 @@
       }
     },
     {
-      "id": "Guna",
+      "id": "Padartha.Guna",
       "bfo": {
         "status": "Restricted",
         "target": "BFO_0000019 quality",
@@ -1219,7 +1219,7 @@
       "schema_id": "Padartha.Guna"
     },
     {
-      "id": "Karman",
+      "id": "Padartha.Karman",
       "bfo": {
         "status": "Restricted",
         "target": "BFO_0000015 process",
@@ -1233,7 +1233,7 @@
       "schema_id": "Padartha.Karman"
     },
     {
-      "id": "Samanya",
+      "id": "Padartha.Samanya",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -1247,7 +1247,7 @@
       "schema_id": "Padartha.Samanya"
     },
     {
-      "id": "Samavaya",
+      "id": "Padartha.Samavaya",
       "bfo": {
         "status": "Restricted",
         "target": "BFO_0000197 inheres in",
@@ -1261,7 +1261,7 @@
       "schema_id": "Padartha.Samavaya"
     },
     {
-      "id": "Visesa",
+      "id": "Padartha.Visesa",
       "bfo": {
         "status": "NoDirectCounterpart",
         "target": null,
@@ -1493,9 +1493,9 @@
         "reason": "No BFO coordinate layer."
       },
       "ufo": {
-        "status": "Analogy",
-        "target": "quale coordinate",
-        "reason": "Structural borrowing only."
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Proposal coordinate structure; no asserted UFO theory mapping."
       },
       "schema_id": "QualityCoordinate"
     },
@@ -1718,7 +1718,7 @@
       "schema_id": "StemComposition"
     },
     {
-      "id": "CompositionPending",
+      "id": "StemComposition.CompositionPending",
       "bfo": {
         "status": "NotComparable",
         "target": null,
@@ -1732,7 +1732,7 @@
       "schema_id": "StemComposition.CompositionPending"
     },
     {
-      "id": "Primary",
+      "id": "StemComposition.Primary",
       "bfo": {
         "status": "NotComparable",
         "target": null,
@@ -1774,7 +1774,7 @@
       "schema_id": "StemFormation"
     },
     {
-      "id": "Namadhatu",
+      "id": "StemFormation.Namadhatu",
       "bfo": {
         "status": "NotComparable",
         "target": null,
@@ -1788,7 +1788,7 @@
       "schema_id": "StemFormation.Namadhatu"
     },
     {
-      "id": "Nic",
+      "id": "StemFormation.Nic",
       "bfo": {
         "status": "NotComparable",
         "target": null,
@@ -1802,7 +1802,7 @@
       "schema_id": "StemFormation.Nic"
     },
     {
-      "id": "San",
+      "id": "StemFormation.San",
       "bfo": {
         "status": "NotComparable",
         "target": null,
@@ -1816,7 +1816,7 @@
       "schema_id": "StemFormation.San"
     },
     {
-      "id": "Yan",
+      "id": "StemFormation.Yan",
       "bfo": {
         "status": "NotComparable",
         "target": null,
