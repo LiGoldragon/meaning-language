@@ -1,0 +1,845 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "Abhava",
+      "schema_id": "Abhava",
+      "iast": null,
+      "english": "Abhava"
+    },
+    {
+      "id": "Act",
+      "iast": null,
+      "english": "Act",
+      "schema_id": "Act"
+    },
+    {
+      "id": "AgreementForm",
+      "iast": null,
+      "english": "AgreementForm",
+      "schema_id": "AgreementForm"
+    },
+    {
+      "id": "Annotation",
+      "iast": null,
+      "english": "Annotation",
+      "schema_id": "Annotation"
+    },
+    {
+      "id": "AnnotationBody",
+      "iast": null,
+      "english": "AnnotationBody",
+      "schema_id": "AnnotationBody"
+    },
+    {
+      "id": "AnnotationBody.LinkedStatement",
+      "schema_id": "AnnotationBody.LinkedStatement",
+      "iast": null,
+      "english": "LinkedStatement"
+    },
+    {
+      "id": "AnnotationBody.Prose",
+      "schema_id": "AnnotationBody.Prose",
+      "iast": null,
+      "english": "Prose"
+    },
+    {
+      "id": "AnnotationTarget",
+      "iast": null,
+      "english": "AnnotationTargetLink",
+      "schema_id": "AnnotationTarget"
+    },
+    {
+      "id": "Bearer",
+      "iast": null,
+      "english": "BearerLink",
+      "schema_id": "Bearer"
+    },
+    {
+      "id": "ContentChecksum",
+      "iast": null,
+      "english": "UnverifiedContentChecksum",
+      "schema_id": "ContentChecksum"
+    },
+    {
+      "id": "ContentLink",
+      "iast": null,
+      "english": "ContentAddressedLink",
+      "schema_id": "ContentLink"
+    },
+    {
+      "id": "Dhatu",
+      "iast": "dhātu",
+      "english": "VerbalRoot",
+      "schema_id": "Dhatu"
+    },
+    {
+      "id": "DimensionDefinition",
+      "iast": null,
+      "english": "DimensionDefinition",
+      "schema_id": "DimensionDefinition"
+    },
+    {
+      "id": "DimensionLink",
+      "iast": null,
+      "english": "DimensionDefinitionLink",
+      "schema_id": "DimensionLink"
+    },
+    {
+      "id": "Dravya",
+      "iast": "dravya",
+      "english": "Substance",
+      "schema_id": "Dravya"
+    },
+    {
+      "id": "Akasa",
+      "iast": "ākāśa",
+      "english": "Ether",
+      "schema_id": "Dravya.Akasa"
+    },
+    {
+      "id": "Ap",
+      "iast": "ap",
+      "english": "Water",
+      "schema_id": "Dravya.Ap"
+    },
+    {
+      "id": "Atman",
+      "iast": "ātman",
+      "english": "Self",
+      "schema_id": "Dravya.Atman"
+    },
+    {
+      "id": "Dik",
+      "iast": "dik",
+      "english": "DirectionOrSpace",
+      "schema_id": "Dravya.Dik"
+    },
+    {
+      "id": "Kala",
+      "iast": "kāla",
+      "english": "Time",
+      "schema_id": "Dravya.Kala"
+    },
+    {
+      "id": "Manas",
+      "iast": "manas",
+      "english": "Mind",
+      "schema_id": "Dravya.Manas"
+    },
+    {
+      "id": "Prthivi",
+      "iast": "pṛthivī",
+      "english": "Earth",
+      "schema_id": "Dravya.Prthivi"
+    },
+    {
+      "id": "Tejas",
+      "iast": "tejas",
+      "english": "FireOrLight",
+      "schema_id": "Dravya.Tejas"
+    },
+    {
+      "id": "Vayu",
+      "iast": "vāyu",
+      "english": "Air",
+      "schema_id": "Dravya.Vayu"
+    },
+    {
+      "id": "GunaKind",
+      "iast": "guṇa",
+      "english": "QualityKind",
+      "schema_id": "GunaKind"
+    },
+    {
+      "id": "Adharma",
+      "iast": "adharma",
+      "english": "Demerit",
+      "schema_id": "GunaKind.Adharma"
+    },
+    {
+      "id": "Aparatva",
+      "iast": "aparatva",
+      "english": "Posteriority",
+      "schema_id": "GunaKind.Aparatva"
+    },
+    {
+      "id": "Buddhi",
+      "iast": "buddhi",
+      "english": "Cognition",
+      "schema_id": "GunaKind.Buddhi"
+    },
+    {
+      "id": "Dharma",
+      "iast": "dharma",
+      "english": "Merit",
+      "schema_id": "GunaKind.Dharma"
+    },
+    {
+      "id": "Dravatva",
+      "iast": "dravatva",
+      "english": "Fluidity",
+      "schema_id": "GunaKind.Dravatva"
+    },
+    {
+      "id": "Duhkha",
+      "iast": "duḥkha",
+      "english": "PainOrUnpleasantExperience",
+      "schema_id": "GunaKind.Duhkha"
+    },
+    {
+      "id": "Dvesa",
+      "iast": "dveṣa",
+      "english": "AversionWishingAway",
+      "schema_id": "GunaKind.Dvesa"
+    },
+    {
+      "id": "Gandha",
+      "iast": "gandha",
+      "english": "Odour",
+      "schema_id": "GunaKind.Gandha"
+    },
+    {
+      "id": "Gurutva",
+      "iast": "gurutva",
+      "english": "Heaviness",
+      "schema_id": "GunaKind.Gurutva"
+    },
+    {
+      "id": "Iccha",
+      "iast": "icchā",
+      "english": "DesireToObtain",
+      "schema_id": "GunaKind.Iccha"
+    },
+    {
+      "id": "Paratva",
+      "iast": "paratva",
+      "english": "Priority",
+      "schema_id": "GunaKind.Paratva"
+    },
+    {
+      "id": "Parimana",
+      "iast": "parimāṇa",
+      "english": "MagnitudeOrMeasure",
+      "schema_id": "GunaKind.Parimana"
+    },
+    {
+      "id": "Prayatna",
+      "iast": "prayatna",
+      "english": "EffortOrVolition",
+      "schema_id": "GunaKind.Prayatna"
+    },
+    {
+      "id": "Prthaktva",
+      "iast": "pṛthaktva",
+      "english": "Separateness",
+      "schema_id": "GunaKind.Prthaktva"
+    },
+    {
+      "id": "Rasa",
+      "iast": "rasa",
+      "english": "Taste",
+      "schema_id": "GunaKind.Rasa"
+    },
+    {
+      "id": "Rupa",
+      "iast": "rūpa",
+      "english": "ColourOrVisibleAppearance",
+      "schema_id": "GunaKind.Rupa"
+    },
+    {
+      "id": "Sabda",
+      "iast": "śabda",
+      "english": "Sound",
+      "schema_id": "GunaKind.Sabda"
+    },
+    {
+      "id": "Samskara",
+      "iast": "saṃskāra",
+      "english": "DispositionOrLatentImpression",
+      "schema_id": "GunaKind.Samskara"
+    },
+    {
+      "id": "Samyoga",
+      "iast": "saṃyoga",
+      "english": "ConjunctionOrContact",
+      "schema_id": "GunaKind.Samyoga"
+    },
+    {
+      "id": "Sankhya",
+      "iast": "saṅkhyā",
+      "english": "Number",
+      "schema_id": "GunaKind.Sankhya"
+    },
+    {
+      "id": "Sneha",
+      "iast": "sneha",
+      "english": "Viscidity",
+      "schema_id": "GunaKind.Sneha"
+    },
+    {
+      "id": "Sparsa",
+      "iast": "sparśa",
+      "english": "TactileQuality",
+      "schema_id": "GunaKind.Sparsa"
+    },
+    {
+      "id": "Sukha",
+      "iast": "sukha",
+      "english": "Pleasure",
+      "schema_id": "GunaKind.Sukha"
+    },
+    {
+      "id": "Vibhaga",
+      "iast": "vibhāga",
+      "english": "DisjunctionOrSeparation",
+      "schema_id": "GunaKind.Vibhaga"
+    },
+    {
+      "id": "IntentionHole",
+      "schema_id": "IntentionHole",
+      "iast": null,
+      "english": "IntentionHole"
+    },
+    {
+      "id": "Karaka",
+      "iast": "kāraka",
+      "english": "RoleFiller",
+      "schema_id": "Karaka"
+    },
+    {
+      "id": "KarakaFiller",
+      "iast": null,
+      "english": "KarakaFillerLink",
+      "schema_id": "KarakaFiller"
+    },
+    {
+      "id": "KarakaRole",
+      "iast": "kāraka",
+      "english": "SemanticRole",
+      "schema_id": "KarakaRole"
+    },
+    {
+      "id": "Adhikarana",
+      "iast": "adhikaraṇa",
+      "english": "LocusOrSubstratum",
+      "schema_id": "KarakaRole.Adhikarana"
+    },
+    {
+      "id": "Apadana",
+      "iast": "apādāna",
+      "english": "FixedPointOfDeparture",
+      "schema_id": "KarakaRole.Apadana"
+    },
+    {
+      "id": "Karana",
+      "iast": "karaṇa",
+      "english": "MostEffectiveInstrument",
+      "schema_id": "KarakaRole.Karana"
+    },
+    {
+      "id": "KarmanKaraka",
+      "iast": "karman",
+      "english": "MostDesiredObject",
+      "schema_id": "KarakaRole.KarmanKaraka"
+    },
+    {
+      "id": "Kartr",
+      "iast": "kartṛ",
+      "english": "IndependentAgent",
+      "schema_id": "KarakaRole.Kartr"
+    },
+    {
+      "id": "Sampradana",
+      "iast": "sampradāna",
+      "english": "RecipientOrBeneficiary",
+      "schema_id": "KarakaRole.Sampradana"
+    },
+    {
+      "id": "Karman",
+      "schema_id": "Karman",
+      "iast": null,
+      "english": "Karman"
+    },
+    {
+      "id": "Lakara",
+      "iast": "lakāra",
+      "english": "TenseMoodMarker",
+      "schema_id": "Lakara"
+    },
+    {
+      "id": "Lan",
+      "iast": "laṅ",
+      "english": "Imperfect",
+      "schema_id": "Lakara.Lan"
+    },
+    {
+      "id": "Lat",
+      "iast": "laṭ",
+      "english": "Present",
+      "schema_id": "Lakara.Lat"
+    },
+    {
+      "id": "Let",
+      "iast": "leṭ",
+      "english": "VedicSubjunctive",
+      "schema_id": "Lakara.Let"
+    },
+    {
+      "id": "Lin",
+      "iast": "liṅ",
+      "english": "OptativeOrBenedictive",
+      "schema_id": "Lakara.Lin"
+    },
+    {
+      "id": "Lit",
+      "iast": "liṭ",
+      "english": "PerfectOrParoksaPast",
+      "schema_id": "Lakara.Lit"
+    },
+    {
+      "id": "Lot",
+      "iast": "loṭ",
+      "english": "Imperative",
+      "schema_id": "Lakara.Lot"
+    },
+    {
+      "id": "Lrn",
+      "iast": "lṛṅ",
+      "english": "Conditional",
+      "schema_id": "Lakara.Lrn"
+    },
+    {
+      "id": "Lrt",
+      "iast": "lṛṭ",
+      "english": "SimpleFuture",
+      "schema_id": "Lakara.Lrt"
+    },
+    {
+      "id": "Lun",
+      "iast": "luṅ",
+      "english": "Aorist",
+      "schema_id": "Lakara.Lun"
+    },
+    {
+      "id": "Lut",
+      "iast": "luṭ",
+      "english": "PeriphrasticFuture",
+      "schema_id": "Lakara.Lut"
+    },
+    {
+      "id": "LinUse",
+      "iast": "liṅ",
+      "english": "OptativeOrBenedictiveUse",
+      "schema_id": "LinUse"
+    },
+    {
+      "id": "Benedictive",
+      "iast": null,
+      "english": "Benedictive",
+      "schema_id": "LinUse.Benedictive"
+    },
+    {
+      "id": "Optative",
+      "iast": null,
+      "english": "Optative",
+      "schema_id": "LinUse.Optative"
+    },
+    {
+      "id": "Linga",
+      "iast": "liṅga",
+      "english": "GrammaticalGender",
+      "schema_id": "Linga"
+    },
+    {
+      "id": "Napumsaka",
+      "iast": "napuṃsaka",
+      "english": "Neuter",
+      "schema_id": "Linga.Napumsaka"
+    },
+    {
+      "id": "Pum",
+      "iast": "puṃ",
+      "english": "Masculine",
+      "schema_id": "Linga.Pum"
+    },
+    {
+      "id": "Stri",
+      "iast": "strī",
+      "english": "Feminine",
+      "schema_id": "Linga.Stri"
+    },
+    {
+      "id": "LingaInterpretation",
+      "iast": null,
+      "english": "PendingGrammaticalGenderInterpretation",
+      "schema_id": "LingaInterpretation"
+    },
+    {
+      "id": "LingaInterpretation.Pending",
+      "schema_id": "LingaInterpretation.Pending",
+      "iast": null,
+      "english": "Pending"
+    },
+    {
+      "id": "Locator",
+      "iast": null,
+      "english": "OnDemandLocatorHint",
+      "schema_id": "Locator"
+    },
+    {
+      "id": "OpaqueMeaning",
+      "iast": null,
+      "english": "OpaqueMeaning",
+      "schema_id": "OpaqueMeaning"
+    },
+    {
+      "id": "Padartha",
+      "iast": "padārtha",
+      "english": "OntologyCategory",
+      "schema_id": "Padartha"
+    },
+    {
+      "id": "Abhava",
+      "iast": "abhāva",
+      "english": "Absence",
+      "schema_id": "Padartha.Abhava"
+    },
+    {
+      "id": "Padartha.Dravya",
+      "schema_id": "Padartha.Dravya",
+      "iast": null,
+      "english": "Dravya"
+    },
+    {
+      "id": "Guna",
+      "iast": "guṇa",
+      "english": "Quality",
+      "schema_id": "Padartha.Guna"
+    },
+    {
+      "id": "Karman",
+      "iast": "karman",
+      "english": "MotionOrAction",
+      "schema_id": "Padartha.Karman"
+    },
+    {
+      "id": "Samanya",
+      "iast": "sāmānya",
+      "english": "Universality",
+      "schema_id": "Padartha.Samanya"
+    },
+    {
+      "id": "Samavaya",
+      "iast": "samavāya",
+      "english": "InseparableInherence",
+      "schema_id": "Padartha.Samavaya"
+    },
+    {
+      "id": "Visesa",
+      "iast": "viśeṣa",
+      "english": "ParticularizingDifferentiator",
+      "schema_id": "Padartha.Visesa"
+    },
+    {
+      "id": "Prayoga",
+      "iast": "prayoga",
+      "english": "Voice",
+      "schema_id": "Prayoga"
+    },
+    {
+      "id": "Bhave",
+      "iast": "bhāve",
+      "english": "ImpersonalVoice",
+      "schema_id": "Prayoga.Bhave"
+    },
+    {
+      "id": "Karmani",
+      "iast": "karmaṇi",
+      "english": "PassiveVoice",
+      "schema_id": "Prayoga.Karmani"
+    },
+    {
+      "id": "Kartari",
+      "iast": "kartari",
+      "english": "ActiveVoice",
+      "schema_id": "Prayoga.Kartari"
+    },
+    {
+      "id": "Purusha",
+      "iast": "puruṣa",
+      "english": "GrammaticalPerson",
+      "schema_id": "Purusha"
+    },
+    {
+      "id": "Madhyama",
+      "iast": "madhyama",
+      "english": "SecondPerson",
+      "schema_id": "Purusha.Madhyama"
+    },
+    {
+      "id": "Prathama",
+      "iast": "prathama",
+      "english": "ThirdPerson",
+      "schema_id": "Purusha.Prathama"
+    },
+    {
+      "id": "Uttama",
+      "iast": "uttama",
+      "english": "FirstPerson",
+      "schema_id": "Purusha.Uttama"
+    },
+    {
+      "id": "Quale",
+      "iast": null,
+      "english": "Quale",
+      "schema_id": "Quale"
+    },
+    {
+      "id": "Quale.Decimal",
+      "schema_id": "Quale.Decimal",
+      "iast": null,
+      "english": "Decimal"
+    },
+    {
+      "id": "Quale.Referenced",
+      "schema_id": "Quale.Referenced",
+      "iast": null,
+      "english": "Referenced"
+    },
+    {
+      "id": "Quale.Text",
+      "schema_id": "Quale.Text",
+      "iast": null,
+      "english": "Text"
+    },
+    {
+      "id": "Quale.Unresolved",
+      "schema_id": "Quale.Unresolved",
+      "iast": null,
+      "english": "Unresolved"
+    },
+    {
+      "id": "Quale.Whole",
+      "schema_id": "Quale.Whole",
+      "iast": null,
+      "english": "Whole"
+    },
+    {
+      "id": "Quality",
+      "iast": null,
+      "english": "Quality",
+      "schema_id": "Quality"
+    },
+    {
+      "id": "QualityCoordinate",
+      "iast": null,
+      "english": "QualityCoordinate",
+      "schema_id": "QualityCoordinate"
+    },
+    {
+      "id": "QualityDomain",
+      "iast": null,
+      "english": "QualityDomain",
+      "schema_id": "QualityDomain"
+    },
+    {
+      "id": "QualityStructure",
+      "iast": null,
+      "english": "QualityStructure",
+      "schema_id": "QualityStructure"
+    },
+    {
+      "id": "QualityStructure.Dimension",
+      "schema_id": "QualityStructure.Dimension",
+      "iast": null,
+      "english": "Dimension"
+    },
+    {
+      "id": "QualityStructure.Domain",
+      "schema_id": "QualityStructure.Domain",
+      "iast": null,
+      "english": "Domain"
+    },
+    {
+      "id": "RetentionSpecification",
+      "iast": null,
+      "english": "RetentionSpecification",
+      "schema_id": "RetentionSpecification"
+    },
+    {
+      "id": "RootStatement",
+      "iast": null,
+      "english": "RootStatement",
+      "schema_id": "RootStatement"
+    },
+    {
+      "id": "Samanya",
+      "schema_id": "Samanya",
+      "iast": null,
+      "english": "Samanya"
+    },
+    {
+      "id": "Samavaya",
+      "schema_id": "Samavaya",
+      "iast": null,
+      "english": "Samavaya"
+    },
+    {
+      "id": "Statement",
+      "iast": null,
+      "english": "Statement",
+      "schema_id": "Statement"
+    },
+    {
+      "id": "StatementActPolicyHole",
+      "schema_id": "StatementActPolicyHole",
+      "iast": null,
+      "english": "StatementActPolicyHole"
+    },
+    {
+      "id": "StatementContent",
+      "schema_id": "StatementContent",
+      "iast": null,
+      "english": "StatementContent"
+    },
+    {
+      "id": "StatementContent.ActPolicyPending",
+      "schema_id": "StatementContent.ActPolicyPending",
+      "iast": null,
+      "english": "ActPolicyPending"
+    },
+    {
+      "id": "StatementContent.ProsePolicyPending",
+      "schema_id": "StatementContent.ProsePolicyPending",
+      "iast": null,
+      "english": "ProsePolicyPending"
+    },
+    {
+      "id": "StatementProsePolicyHole",
+      "schema_id": "StatementProsePolicyHole",
+      "iast": null,
+      "english": "StatementProsePolicyHole"
+    },
+    {
+      "id": "StemComposition",
+      "iast": null,
+      "english": "UnsettledStemComposition",
+      "schema_id": "StemComposition"
+    },
+    {
+      "id": "CompositionPending",
+      "iast": null,
+      "english": "PendingStemComposition",
+      "schema_id": "StemComposition.CompositionPending"
+    },
+    {
+      "id": "Primary",
+      "iast": null,
+      "english": "PrimaryStem",
+      "schema_id": "StemComposition.Primary"
+    },
+    {
+      "id": "StemComposition.Single",
+      "schema_id": "StemComposition.Single",
+      "iast": null,
+      "english": "Single"
+    },
+    {
+      "id": "StemFormation",
+      "iast": null,
+      "english": "StemFormation",
+      "schema_id": "StemFormation"
+    },
+    {
+      "id": "Namadhatu",
+      "iast": "nāma-dhātu",
+      "english": "DenominativeFormation",
+      "schema_id": "StemFormation.Namadhatu"
+    },
+    {
+      "id": "Nic",
+      "iast": "ṇic",
+      "english": "CausativeFormation",
+      "schema_id": "StemFormation.Nic"
+    },
+    {
+      "id": "San",
+      "iast": "san",
+      "english": "DesiderativeFormation",
+      "schema_id": "StemFormation.San"
+    },
+    {
+      "id": "Yan",
+      "iast": "yaṅ",
+      "english": "IntensiveFormation",
+      "schema_id": "StemFormation.Yan"
+    },
+    {
+      "id": "SubpartLink",
+      "iast": null,
+      "english": "SubpartLink",
+      "schema_id": "SubpartLink"
+    },
+    {
+      "id": "Vachana",
+      "iast": "vacana",
+      "english": "GrammaticalNumber",
+      "schema_id": "Vachana"
+    },
+    {
+      "id": "Bahu",
+      "iast": "bahu",
+      "english": "Plural",
+      "schema_id": "Vachana.Bahu"
+    },
+    {
+      "id": "Dvi",
+      "iast": "dvi",
+      "english": "Dual",
+      "schema_id": "Vachana.Dvi"
+    },
+    {
+      "id": "Eka",
+      "iast": "eka",
+      "english": "Singular",
+      "schema_id": "Vachana.Eka"
+    },
+    {
+      "id": "ValueDomain",
+      "iast": null,
+      "english": "ValueDomain",
+      "schema_id": "ValueDomain"
+    },
+    {
+      "id": "ValueDomain.Categorical",
+      "schema_id": "ValueDomain.Categorical",
+      "iast": null,
+      "english": "Categorical"
+    },
+    {
+      "id": "ValueDomain.Numeric",
+      "schema_id": "ValueDomain.Numeric",
+      "iast": null,
+      "english": "Numeric"
+    },
+    {
+      "id": "ValueDomain.Unresolved",
+      "schema_id": "ValueDomain.Unresolved",
+      "iast": null,
+      "english": "Unresolved"
+    },
+    {
+      "id": "Visesa",
+      "schema_id": "Visesa",
+      "iast": null,
+      "english": "Visesa"
+    },
+    {
+      "id": "Padartha.Substance",
+      "schema_id": "Padartha.Substance",
+      "iast": "dravya",
+      "english": "Substance"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+Library
+[]
+[
+  OpaqueMeaning.String
+  ContentChecksum.String
+  Locator.String
+  ContentLink.{ ContentChecksum Option<Locator> }
+  Bearer.ContentLink
+  AnnotationTarget.ContentLink
+  DimensionLink.ContentLink
+  KarakaFiller.ContentLink
+  SubpartLink.ContentLink
+
+  Padartha.[ Substance.Dravya Guna.Quality Karman.Karman Samanya.Samanya Visesa.Visesa Samavaya.Samavaya Abhava.Abhava ]
+  Dravya.[ Prthivi Ap Tejas Vayu Akasa Kala Dik Atman Manas ]
+  GunaKind.[ Rupa Rasa Gandha Sparsa Sankhya Parimana Prthaktva Samyoga Vibhaga Paratva Aparatva Buddhi Sukha Duhkha Iccha Dvesa Prayatna Gurutva Dravatva Sneha Dharma Adharma Sabda Samskara ]
+  Karman.OpaqueMeaning
+  Samanya.OpaqueMeaning
+  Visesa.OpaqueMeaning
+  Samavaya.OpaqueMeaning
+  Abhava.OpaqueMeaning
+
+  ValueDomain.[ Numeric.OpaqueMeaning Categorical.OpaqueMeaning Unresolved.OpaqueMeaning ]
+  DimensionDefinition.{ OpaqueMeaning ValueDomain }
+  QualityDomain.Vector<DimensionDefinition>
+  QualityStructure.[ Dimension.DimensionDefinition Domain.QualityDomain ]
+  Quale.[ Text.OpaqueMeaning Whole.Integer Decimal.Decimal Referenced.ContentLink Unresolved.OpaqueMeaning ]
+  QualityCoordinate.{ DimensionLink Quale }
+  Quality.{ GunaKind QualityStructure Vector<QualityCoordinate> Bearer }
+
+  IntentionHole.OpaqueMeaning
+
+  Dhatu.String
+  StemFormation.[ Nic San Yan Namadhatu ]
+  StemComposition.[ Primary Single.StemFormation CompositionPending.OpaqueMeaning ]
+  Lakara.[ Lat Lit Lut Lrt Let Lot Lan Lin.LinUse Lun Lrn ]
+  LinUse.[ Optative Benedictive ]
+  Prayoga.[ Kartari Karmani Bhave ]
+  Purusha.[ Prathama Madhyama Uttama ]
+  Vachana.[ Eka Dvi Bahu ]
+  Linga.[ Pum Stri Napumsaka ]
+  LingaInterpretation.[ Pending ]
+  AgreementForm.{ Linga LingaInterpretation }
+  KarakaRole.[ Kartr KarmanKaraka Karana Sampradana Apadana Adhikarana ]
+  Karaka.{ KarakaRole KarakaFiller }
+  Act.{ Dhatu StemComposition Lakara Prayoga Purusha Vachana Option<AgreementForm> Vector<Karaka> }
+
+  StatementContent.[ ProsePolicyPending.OpaqueMeaning ActPolicyPending.Act ]
+  Statement.{ StatementContent Vector<SubpartLink> }
+  AnnotationBody.[ Prose.OpaqueMeaning LinkedStatement.ContentLink ]
+  Annotation.{ AnnotationTarget AnnotationBody }
+  RootStatement.SubpartLink
+  RetentionSpecification.OpaqueMeaning
+]
+[]
+[]

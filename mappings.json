@@ -1,0 +1,1988 @@
+{
+  "version": 1,
+  "scope": "Outbound historical/interoperability mappings only; no mapping asserts ontology equivalence.",
+  "sources": {
+    "bfo": "https://raw.githubusercontent.com/BFO-ontology/BFO-2020/master/21838-2/owl/bfo-core.ttl",
+    "gufo": "https://raw.githubusercontent.com/nemo-ufes/gufo/master/gufo.ttl",
+    "ufo_theory": "https://nemo.inf.ufes.br/wp-content/uploads/ufo_unified_foundational_ontology_2021.pdf",
+    "vaisesika": "https://journal.fi/store/article/download/52382/16232",
+    "panini": "https://ashtadhyayi.github.io/suutra/1.4/"
+  },
+  "records": [
+    {
+      "id": "Abhava",
+      "schema_id": "Abhava",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Absence has no BFO root counterpart."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Absence has no gUFO root counterpart."
+      },
+      "mapping_reference": "Padartha.Abhava"
+    },
+    {
+      "id": "Act",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian grammatical act surface."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Grammar, not ontology import."
+      },
+      "schema_id": "Act"
+    },
+    {
+      "id": "AgreementForm",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Grammatical agreement form."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Grammatical agreement form."
+      },
+      "schema_id": "AgreementForm"
+    },
+    {
+      "id": "Annotation",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Meaning-language graph node."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Meaning-language graph node."
+      },
+      "schema_id": "Annotation"
+    },
+    {
+      "id": "AnnotationBody",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Meaning-language graph node."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Meaning-language graph node."
+      },
+      "schema_id": "AnnotationBody"
+    },
+    {
+      "id": "AnnotationBody.LinkedStatement",
+      "schema_id": "AnnotationBody.LinkedStatement",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "AnnotationBody.Prose",
+      "schema_id": "AnnotationBody.Prose",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "AnnotationTarget",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Role alias over ContentLink."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Role alias over ContentLink."
+      },
+      "schema_id": "AnnotationTarget"
+    },
+    {
+      "id": "Bearer",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Role alias over ContentLink."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Role alias over ContentLink."
+      },
+      "schema_id": "Bearer"
+    },
+    {
+      "id": "ContentChecksum",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Unverified content-addressing utility."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Unverified content-addressing utility."
+      },
+      "schema_id": "ContentChecksum"
+    },
+    {
+      "id": "ContentLink",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Content-addressing utility."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Content-addressing utility."
+      },
+      "schema_id": "ContentLink"
+    },
+    {
+      "id": "Dhatu",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian grammar term."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian grammar term."
+      },
+      "schema_id": "Dhatu"
+    },
+    {
+      "id": "DimensionDefinition",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No BFO dimension layer."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "UFO quality dimension",
+        "targetKind": "TheoryConcept",
+        "source": "ufo_theory",
+        "reason": "Survey-attributed theory correspondence; not a gUFO class IRI.",
+        "evidence": "independently checked primary UFO theory §3.12, d5/a86–a99, printed pp. 15–17"
+      },
+      "schema_id": "DimensionDefinition"
+    },
+    {
+      "id": "DimensionLink",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Role alias over ContentLink."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Role alias over ContentLink."
+      },
+      "schema_id": "DimensionLink"
+    },
+    {
+      "id": "Dravya",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000004 independent continuant",
+        "reason": "Some substances are continuants; the nine dravyas include time and space."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Endurant",
+        "reason": "Only some dravyas align with endurants."
+      },
+      "schema_id": "Dravya"
+    },
+    {
+      "id": "Akasa",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Ether is not a BFO upper category."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Ether has no gUFO root counterpart."
+      },
+      "schema_id": "Dravya.Akasa"
+    },
+    {
+      "id": "Ap",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000040 material entity",
+        "reason": "Water is a classical substance category."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Quantity",
+        "reason": "Quantity analogy only."
+      },
+      "schema_id": "Dravya.Ap"
+    },
+    {
+      "id": "Atman",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Self is not a BFO upper category."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "gufo:Object",
+        "reason": "Object does not settle the metaphysical claim."
+      },
+      "schema_id": "Dravya.Atman"
+    },
+    {
+      "id": "Dik",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000006 spatial region",
+        "reason": "DirectionOrSpace is a classical substance."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No direct gUFO root map."
+      },
+      "schema_id": "Dravya.Dik"
+    },
+    {
+      "id": "Kala",
+      "bfo": {
+        "status": "Analogy",
+        "target": "BFO_0000008 temporal region",
+        "reason": "Classical time is a substance, unlike BFO temporal region; BFO_0000148 is only zero-dimensional temporal region."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No gUFO time class is asserted here."
+      },
+      "schema_id": "Dravya.Kala"
+    },
+    {
+      "id": "Manas",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Classical mind has no asserted BFO upper map."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "An intrinsic mode is not a dravya substance mapping."
+      },
+      "schema_id": "Dravya.Manas"
+    },
+    {
+      "id": "Prthivi",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000040 material entity",
+        "reason": "Classical earth is broader than a modern material taxonomy."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Object",
+        "reason": "Material bearer analogy."
+      },
+      "schema_id": "Dravya.Prthivi"
+    },
+    {
+      "id": "Tejas",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "FireOrLight has no asserted BFO root map."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No asserted gUFO root map."
+      },
+      "schema_id": "Dravya.Tejas"
+    },
+    {
+      "id": "Vayu",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000040 material entity",
+        "reason": "Air is a classical substance category."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Quantity",
+        "reason": "Quantity analogy only."
+      },
+      "schema_id": "Dravya.Vayu"
+    },
+    {
+      "id": "GunaKind",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Vocabulary enum carried by Quality."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Vocabulary enum carried by Quality."
+      },
+      "schema_id": "GunaKind"
+    },
+    {
+      "id": "Adharma",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Demerit is not a BFO upper quality assertion."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No direct gUFO quality map."
+      },
+      "schema_id": "GunaKind.Adharma"
+    },
+    {
+      "id": "Aparatva",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Posteriority is not forced into BFO quality."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No direct gUFO quality claim."
+      },
+      "schema_id": "GunaKind.Aparatva"
+    },
+    {
+      "id": "Buddhi",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Cognition is not a BFO upper quality assertion."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "gufo:IntrinsicMode",
+        "reason": "Mode is not quality identity."
+      },
+      "schema_id": "GunaKind.Buddhi"
+    },
+    {
+      "id": "Dharma",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Merit is not a BFO upper quality assertion."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No direct gUFO quality map."
+      },
+      "schema_id": "GunaKind.Dharma"
+    },
+    {
+      "id": "Dravatva",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000019 quality",
+        "reason": "Fluidity can be a quality."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Quality",
+        "reason": "Quality analogy."
+      },
+      "schema_id": "GunaKind.Dravatva"
+    },
+    {
+      "id": "Duhkha",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Pain is not forced into BFO quality."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "gufo:IntrinsicMode",
+        "reason": "Mode analogy only."
+      },
+      "schema_id": "GunaKind.Duhkha"
+    },
+    {
+      "id": "Dvesa",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Aversion is not a BFO upper type."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "gufo:IntrinsicMode",
+        "reason": "Do not force aversion into gufo:Quality."
+      },
+      "schema_id": "GunaKind.Dvesa"
+    },
+    {
+      "id": "Gandha",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000019 quality",
+        "reason": "Odour can be a quality."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Quality",
+        "reason": "Quality analogy."
+      },
+      "schema_id": "GunaKind.Gandha"
+    },
+    {
+      "id": "Gurutva",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000019 quality",
+        "reason": "Heaviness can be a quality."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Quality",
+        "reason": "Quality analogy."
+      },
+      "schema_id": "GunaKind.Gurutva"
+    },
+    {
+      "id": "Iccha",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Desire is not a BFO upper type."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "gufo:IntrinsicMode",
+        "reason": "Do not force desire into gufo:Quality."
+      },
+      "schema_id": "GunaKind.Iccha"
+    },
+    {
+      "id": "Paratva",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Priority is not forced into BFO quality."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No direct gUFO quality claim."
+      },
+      "schema_id": "GunaKind.Paratva"
+    },
+    {
+      "id": "Parimana",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000019 quality",
+        "reason": "Magnitude can be a quality."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Quality",
+        "reason": "May use quality structure/dimension/quale."
+      },
+      "schema_id": "GunaKind.Parimana"
+    },
+    {
+      "id": "Prayatna",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "EffortOrVolition is not a BFO upper type."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "gufo:IntrinsicMode",
+        "reason": "Do not force effort into gufo:Quality."
+      },
+      "schema_id": "GunaKind.Prayatna"
+    },
+    {
+      "id": "Prthaktva",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Separateness is not forced into BFO quality."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No direct gUFO quality claim."
+      },
+      "schema_id": "GunaKind.Prthaktva"
+    },
+    {
+      "id": "Rasa",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000019 quality",
+        "reason": "Taste can be a quality."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Quality",
+        "reason": "Quality analogy."
+      },
+      "schema_id": "GunaKind.Rasa"
+    },
+    {
+      "id": "Rupa",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000019 quality",
+        "reason": "Visible appearance can be a quality."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Quality",
+        "reason": "Quality with a quale, not identity."
+      },
+      "schema_id": "GunaKind.Rupa"
+    },
+    {
+      "id": "Sabda",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000019 quality",
+        "reason": "Sound may be quality-dependent; no identity asserted."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Quality",
+        "reason": "Quality analogy."
+      },
+      "schema_id": "GunaKind.Sabda"
+    },
+    {
+      "id": "Samskara",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "DispositionOrLatentImpression is not a BFO upper type."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "gufo:IntrinsicMode",
+        "reason": "Mode analogy only."
+      },
+      "schema_id": "GunaKind.Samskara"
+    },
+    {
+      "id": "Samyoga",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No specific BFO relation is selected."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "gufo:Relator covers relation mediators such as commitments, not generic contact."
+      },
+      "schema_id": "GunaKind.Samyoga"
+    },
+    {
+      "id": "Sankhya",
+      "bfo": {
+        "status": "Analogy",
+        "target": "BFO_0000019 quality",
+        "reason": "Number is modeled differently across systems."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "gufo:Quality",
+        "reason": "No asserted direct map."
+      },
+      "schema_id": "GunaKind.Sankhya"
+    },
+    {
+      "id": "Sneha",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000019 quality",
+        "reason": "Viscidity can be a quality."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Quality",
+        "reason": "Quality analogy."
+      },
+      "schema_id": "GunaKind.Sneha"
+    },
+    {
+      "id": "Sparsa",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000019 quality",
+        "reason": "Tactile quality can be a quality."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Quality",
+        "reason": "Quality analogy."
+      },
+      "schema_id": "GunaKind.Sparsa"
+    },
+    {
+      "id": "Sukha",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Pleasure is not forced into BFO quality."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "gufo:IntrinsicMode",
+        "reason": "Mode analogy only."
+      },
+      "schema_id": "GunaKind.Sukha"
+    },
+    {
+      "id": "Vibhaga",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No specific BFO relation is selected."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "gufo:Relator covers relation mediators, not generic separation."
+      },
+      "schema_id": "GunaKind.Vibhaga"
+    },
+    {
+      "id": "IntentionHole",
+      "schema_id": "IntentionHole",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Karaka",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian role-filler pair."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian role-filler pair."
+      },
+      "schema_id": "Karaka"
+    },
+    {
+      "id": "KarakaFiller",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Role alias over ContentLink."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Role alias over ContentLink."
+      },
+      "schema_id": "KarakaFiller"
+    },
+    {
+      "id": "KarakaRole",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian semantic-role grammar."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian semantic-role grammar."
+      },
+      "schema_id": "KarakaRole"
+    },
+    {
+      "id": "Adhikarana",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian kāraka role."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian kāraka role."
+      },
+      "schema_id": "KarakaRole.Adhikarana"
+    },
+    {
+      "id": "Apadana",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian kāraka role."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian kāraka role."
+      },
+      "schema_id": "KarakaRole.Apadana"
+    },
+    {
+      "id": "Karana",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian kāraka role."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian kāraka role."
+      },
+      "schema_id": "KarakaRole.Karana"
+    },
+    {
+      "id": "KarmanKaraka",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian kāraka role."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian kāraka role."
+      },
+      "schema_id": "KarakaRole.KarmanKaraka"
+    },
+    {
+      "id": "Kartr",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian kāraka role."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian kāraka role."
+      },
+      "schema_id": "KarakaRole.Kartr"
+    },
+    {
+      "id": "Sampradana",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian kāraka role."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian kāraka role."
+      },
+      "schema_id": "KarakaRole.Sampradana"
+    },
+    {
+      "id": "Karman",
+      "schema_id": "Karman",
+      "bfo": {
+        "status": "Restricted",
+        "target": "BFO_0000015 process",
+        "reason": "Classical motion is narrower than every BFO process."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Event",
+        "reason": "Restricted classical motion is not every perdurant."
+      },
+      "mapping_reference": "Padartha.Karman"
+    },
+    {
+      "id": "Lakara",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian tense/mood grammar."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian tense/mood grammar."
+      },
+      "schema_id": "Lakara"
+    },
+    {
+      "id": "Lakara.Lan",
+      "schema_id": "Lakara.Lan",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Lakara.Lat",
+      "schema_id": "Lakara.Lat",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Lakara.Let",
+      "schema_id": "Lakara.Let",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Lakara.Lin",
+      "schema_id": "Lakara.Lin",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Lakara.Lit",
+      "schema_id": "Lakara.Lit",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Lakara.Lot",
+      "schema_id": "Lakara.Lot",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Lakara.Lrn",
+      "schema_id": "Lakara.Lrn",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Lakara.Lrt",
+      "schema_id": "Lakara.Lrt",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Lakara.Lun",
+      "schema_id": "Lakara.Lun",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Lakara.Lut",
+      "schema_id": "Lakara.Lut",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "LinUse",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian presentation distinction."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian presentation distinction."
+      },
+      "schema_id": "LinUse"
+    },
+    {
+      "id": "LinUse.Benedictive",
+      "schema_id": "LinUse.Benedictive",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "LinUse.Optative",
+      "schema_id": "LinUse.Optative",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Linga",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Grammatical-gender form."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Grammatical-gender form."
+      },
+      "schema_id": "Linga"
+    },
+    {
+      "id": "Linga.Napumsaka",
+      "schema_id": "Linga.Napumsaka",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Linga.Pum",
+      "schema_id": "Linga.Pum",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Linga.Stri",
+      "schema_id": "Linga.Stri",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "LingaInterpretation",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Explicit pending interpretation."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Explicit pending interpretation."
+      },
+      "schema_id": "LingaInterpretation"
+    },
+    {
+      "id": "LingaInterpretation.Pending",
+      "schema_id": "LingaInterpretation.Pending",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Locator",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "On-demand index hint."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "On-demand index hint."
+      },
+      "schema_id": "Locator"
+    },
+    {
+      "id": "OpaqueMeaning",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Proposal fallback utility."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Proposal fallback utility."
+      },
+      "schema_id": "OpaqueMeaning"
+    },
+    {
+      "id": "Padartha",
+      "bfo": {
+        "status": "Analogy",
+        "target": "BFO_0000001 entity",
+        "reason": "Seven-category classificatory frame is not BFO's upper tree."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "UFO has no seven-padartha root."
+      },
+      "schema_id": "Padartha"
+    },
+    {
+      "id": "Abhava",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Absence has no BFO root counterpart."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Absence has no gUFO root counterpart."
+      },
+      "schema_id": "Padartha.Abhava"
+    },
+    {
+      "id": "Padartha.Dravya",
+      "schema_id": "Padartha.Dravya",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Guna",
+      "bfo": {
+        "status": "Restricted",
+        "target": "BFO_0000019 quality",
+        "reason": "BFO quality covers a subset; guṇa includes relation-like and normative entries."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Quality / gufo:IntrinsicMode",
+        "reason": "gUFO distinguishes quality from intrinsic mode."
+      },
+      "schema_id": "Padartha.Guna"
+    },
+    {
+      "id": "Karman",
+      "bfo": {
+        "status": "Restricted",
+        "target": "BFO_0000015 process",
+        "reason": "Classical motion is narrower than every BFO process."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Event",
+        "reason": "Restricted classical motion is not every perdurant."
+      },
+      "schema_id": "Padartha.Karman"
+    },
+    {
+      "id": "Samanya",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "BFO_0000002 is continuant, not a universal root class; universality has no one-to-one BFO match."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "gufo:Type",
+        "reason": "Type is an interoperability analogy."
+      },
+      "schema_id": "Padartha.Samanya"
+    },
+    {
+      "id": "Samavaya",
+      "bfo": {
+        "status": "Restricted",
+        "target": "BFO_0000197 inheres in",
+        "reason": "Samavāya is broader/different than BFO inherence."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "gufo:inheresIn",
+        "reason": "Relation is comparable but not identical."
+      },
+      "schema_id": "Padartha.Samavaya"
+    },
+    {
+      "id": "Visesa",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Ultimate particularizing differentiator is not generic individual."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No gUFO root counterpart."
+      },
+      "schema_id": "Padartha.Visesa"
+    },
+    {
+      "id": "Prayoga",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian voice grammar."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian voice grammar."
+      },
+      "schema_id": "Prayoga"
+    },
+    {
+      "id": "Prayoga.Bhave",
+      "schema_id": "Prayoga.Bhave",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Prayoga.Karmani",
+      "schema_id": "Prayoga.Karmani",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Prayoga.Kartari",
+      "schema_id": "Prayoga.Kartari",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Purusha",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian person grammar."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian person grammar."
+      },
+      "schema_id": "Purusha"
+    },
+    {
+      "id": "Purusha.Madhyama",
+      "schema_id": "Purusha.Madhyama",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Purusha.Prathama",
+      "schema_id": "Purusha.Prathama",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Purusha.Uttama",
+      "schema_id": "Purusha.Uttama",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Quale",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No BFO quale layer."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:QualityValue",
+        "targetKind": "OntologyIRI",
+        "reason": "gUFO QualityValue corresponds to a quale; this proposal also permits unresolved and link values."
+      },
+      "schema_id": "Quale"
+    },
+    {
+      "id": "Quale.Decimal",
+      "schema_id": "Quale.Decimal",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Quale.Referenced",
+      "schema_id": "Quale.Referenced",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Quale.Text",
+      "schema_id": "Quale.Text",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Quale.Unresolved",
+      "schema_id": "Quale.Unresolved",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Quale.Whole",
+      "schema_id": "Quale.Whole",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Quality",
+      "bfo": {
+        "status": "Analogy",
+        "target": "BFO_0000019 quality",
+        "reason": "Structural bridge only."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Quality",
+        "reason": "Carries structure/dimension/quale without identity claim."
+      },
+      "schema_id": "Quality"
+    },
+    {
+      "id": "QualityCoordinate",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No BFO coordinate layer."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "quale coordinate",
+        "reason": "Structural borrowing only."
+      },
+      "schema_id": "QualityCoordinate"
+    },
+    {
+      "id": "QualityDomain",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No BFO quality-domain layer."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "UFO quality domain",
+        "targetKind": "TheoryConcept",
+        "source": "ufo_theory",
+        "reason": "Theory correspondence; not a gUFO class IRI.",
+        "evidence": "independently checked primary UFO theory §3.12, d5/a86–a99, printed pp. 15–17"
+      },
+      "schema_id": "QualityDomain"
+    },
+    {
+      "id": "QualityStructure",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "BFO has no matching structure layer."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "UFO quality structure",
+        "targetKind": "TheoryConcept",
+        "source": "ufo_theory",
+        "reason": "Survey-attributed theory correspondence; not a gUFO class IRI.",
+        "evidence": "independently checked primary UFO theory §3.12, d5/a86–a99, printed pp. 15–17"
+      },
+      "schema_id": "QualityStructure"
+    },
+    {
+      "id": "QualityStructure.Dimension",
+      "schema_id": "QualityStructure.Dimension",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "QualityStructure.Domain",
+      "schema_id": "QualityStructure.Domain",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "RetentionSpecification",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Unimplemented proposal contract."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Unimplemented proposal contract."
+      },
+      "schema_id": "RetentionSpecification"
+    },
+    {
+      "id": "RootStatement",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Content link role alias."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Content link role alias."
+      },
+      "schema_id": "RootStatement"
+    },
+    {
+      "id": "Samanya",
+      "schema_id": "Samanya",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "BFO_0000002 is continuant, not a universal root class; universality has no one-to-one BFO match."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "gufo:Type",
+        "reason": "Type is an interoperability analogy."
+      },
+      "mapping_reference": "Padartha.Samanya"
+    },
+    {
+      "id": "Samavaya",
+      "schema_id": "Samavaya",
+      "bfo": {
+        "status": "Restricted",
+        "target": "BFO_0000197 inheres in",
+        "reason": "Samavāya is broader/different than BFO inherence."
+      },
+      "ufo": {
+        "status": "Analogy",
+        "target": "gufo:inheresIn",
+        "reason": "Relation is comparable but not identical."
+      },
+      "mapping_reference": "Padartha.Samavaya"
+    },
+    {
+      "id": "Statement",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Meaning-language graph node."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Meaning-language graph node."
+      },
+      "schema_id": "Statement"
+    },
+    {
+      "id": "StatementActPolicyHole",
+      "schema_id": "StatementActPolicyHole",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "StatementContent",
+      "schema_id": "StatementContent",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "StatementContent.ActPolicyPending",
+      "schema_id": "StatementContent.ActPolicyPending",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "StatementContent.ProsePolicyPending",
+      "schema_id": "StatementContent.ProsePolicyPending",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "StatementProsePolicyHole",
+      "schema_id": "StatementProsePolicyHole",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "StemComposition",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pending grammar composition policy."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pending grammar composition policy."
+      },
+      "schema_id": "StemComposition"
+    },
+    {
+      "id": "CompositionPending",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Explicit composition-order hole."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Explicit composition-order hole."
+      },
+      "schema_id": "StemComposition.CompositionPending"
+    },
+    {
+      "id": "Primary",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Stem-composition variant."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Stem-composition variant."
+      },
+      "schema_id": "StemComposition.Primary"
+    },
+    {
+      "id": "StemComposition.Single",
+      "schema_id": "StemComposition.Single",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "StemFormation",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian grammar term."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian grammar term."
+      },
+      "schema_id": "StemFormation"
+    },
+    {
+      "id": "Namadhatu",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Denominative formation."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Denominative formation."
+      },
+      "schema_id": "StemFormation.Namadhatu"
+    },
+    {
+      "id": "Nic",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Causative formation."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Causative formation."
+      },
+      "schema_id": "StemFormation.Nic"
+    },
+    {
+      "id": "San",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Desiderative formation."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Desiderative formation."
+      },
+      "schema_id": "StemFormation.San"
+    },
+    {
+      "id": "Yan",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Intensive formation."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Intensive formation."
+      },
+      "schema_id": "StemFormation.Yan"
+    },
+    {
+      "id": "SubpartLink",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Role alias over ContentLink."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Role alias over ContentLink."
+      },
+      "schema_id": "SubpartLink"
+    },
+    {
+      "id": "Vachana",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian number grammar."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Pāṇinian number grammar."
+      },
+      "schema_id": "Vachana"
+    },
+    {
+      "id": "Vachana.Bahu",
+      "schema_id": "Vachana.Bahu",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Vachana.Dvi",
+      "schema_id": "Vachana.Dvi",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Vachana.Eka",
+      "schema_id": "Vachana.Eka",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "ValueDomain",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Proposal validation descriptor."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Proposal validation descriptor."
+      },
+      "schema_id": "ValueDomain"
+    },
+    {
+      "id": "ValueDomain.Categorical",
+      "schema_id": "ValueDomain.Categorical",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "ValueDomain.Numeric",
+      "schema_id": "ValueDomain.Numeric",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "ValueDomain.Unresolved",
+      "schema_id": "ValueDomain.Unresolved",
+      "bfo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted BFO correspondence."
+      },
+      "ufo": {
+        "status": "NotComparable",
+        "target": null,
+        "reason": "Schema variant or utility with no asserted UFO correspondence."
+      }
+    },
+    {
+      "id": "Visesa",
+      "schema_id": "Visesa",
+      "bfo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "Ultimate particularizing differentiator is not generic individual."
+      },
+      "ufo": {
+        "status": "NoDirectCounterpart",
+        "target": null,
+        "reason": "No gUFO root counterpart."
+      },
+      "mapping_reference": "Padartha.Visesa"
+    },
+    {
+      "id": "Padartha.Substance",
+      "schema_id": "Padartha.Substance",
+      "bfo": {
+        "status": "Partial",
+        "target": "BFO_0000004 independent continuant",
+        "reason": "Payload carries classical dravyas; only partial overlap."
+      },
+      "ufo": {
+        "status": "Partial",
+        "target": "gufo:Endurant",
+        "reason": "Payload carries classical dravyas; only partial overlap."
+      }
+    }
+  ]
+}

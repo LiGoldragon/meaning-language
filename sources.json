@@ -1,0 +1,16 @@
+{
+  "repository_revision": "41a0a9fb3e91b49c34261b01d5d54474030ef2ae",
+  "local_sources": [
+    {"path":"flows/f38926/reports/ontology.md","sha256":"0c4947bbf5c1b46d725fc5b89fada17b83eb64a463dca09b3090a022c240baad","role":"survey-attributed ontology recommendation and fork record"},
+    {"path":"flows/f38926/vision/meaningLanguage.md","sha256":"c913e733ad844b8a224c2dc210f4bc3de90e999deeb9b6258f09537d0942a1bb","role":"living rulings for lower graph, annotation, content addressing, and Vaiśeṣika direction"},
+    {"path":"flows/5851f4/vision/ashtadhyayiKnowledgeBase.md","sha256":"5b26f89bacd46f315ccd6fa52f803cdce58f5eaf0bf9e85cf11c0477e97ac5f6","role":"living ruling that Aṣṭādhyāyī is the base for thinking, communication, and classification"}
+  ],
+  "independently_checked_mapping_sources": [
+    "https://raw.githubusercontent.com/BFO-ontology/BFO-2020/master/21838-2/owl/bfo-core.ttl",
+    "https://raw.githubusercontent.com/nemo-ufes/gufo/master/gufo.ttl",
+    "https://journal.fi/store/article/download/52382/16232",
+    "https://ashtadhyayi.github.io/suutra/1.4/",
+    "https://sanskritdocuments.org/learning_tools/ashtadhyayi/"
+  ],
+  "classification": "Local ruling sources, survey-attributed historical mappings, external mapping artifacts queued for per-identifier verification, and proposed implementation choices are distinct evidence classes."
+}
