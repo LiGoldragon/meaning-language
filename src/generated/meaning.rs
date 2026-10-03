@@ -6,10 +6,11 @@ pub type ContentChecksum = String;
 #[rustfmt::skip]
 pub type Locator = String;
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub struct ContentLink {
     pub content_checksum: ContentChecksum,
-    pub locator_option: Option<Locator>,
+    pub locator_option: std::option::Option<Locator>,
 }
 #[rustfmt::skip]
 pub type Bearer = ContentLink;
@@ -22,9 +23,10 @@ pub type KarakaFiller = ContentLink;
 #[rustfmt::skip]
 pub type SubpartLink = ContentLink;
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum Padartha {
-    Dravya(Dravya),
+    Substance(Dravya),
     Guna(Quality),
     Karman(Karman),
     Samanya(Samanya),
@@ -33,7 +35,8 @@ pub enum Padartha {
     Abhava(Abhava),
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum Dravya {
     Prthivi,
     Ap,
@@ -46,7 +49,8 @@ pub enum Dravya {
     Manas,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum GunaKind {
     Rupa,
     Rasa,
@@ -74,56 +78,42 @@ pub enum GunaKind {
     Samskara,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
-pub struct Karman {
-    pub opaque_meaning: OpaqueMeaning,
-}
+pub type Karman = OpaqueMeaning;
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
-pub struct Samanya {
-    pub opaque_meaning: OpaqueMeaning,
-}
+pub type Samanya = OpaqueMeaning;
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
-pub struct Visesa {
-    pub opaque_meaning: OpaqueMeaning,
-}
+pub type Visesa = OpaqueMeaning;
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
-pub struct Samavaya {
-    pub opaque_meaning: OpaqueMeaning,
-}
+pub type Samavaya = OpaqueMeaning;
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
-pub struct Abhava {
-    pub opaque_meaning: OpaqueMeaning,
-}
+pub type Abhava = OpaqueMeaning;
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum ValueDomain {
     Numeric(OpaqueMeaning),
     Categorical(OpaqueMeaning),
     Unresolved(OpaqueMeaning),
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub struct DimensionDefinition {
     pub opaque_meaning: OpaqueMeaning,
     pub value_domain: ValueDomain,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
-pub struct QualityDomain {
-    pub dimension_definition_vector: std::vec::Vec<DimensionDefinition>,
-}
+pub type QualityDomain = std::vec::Vec<DimensionDefinition>;
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum QualityStructure {
     Dimension(DimensionDefinition),
     Domain(QualityDomain),
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum Quale {
     Text(OpaqueMeaning),
     Whole(i64),
@@ -132,23 +122,28 @@ pub enum Quale {
     Unresolved(OpaqueMeaning),
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub struct QualityCoordinate {
     pub dimension_link: DimensionLink,
     pub quale: Quale,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub struct Quality {
     pub guna_kind: GunaKind,
     pub quality_structure: QualityStructure,
     pub quality_coordinate_vector: std::vec::Vec<QualityCoordinate>,
-    pub bearer_option: Option<Bearer>,
+    pub bearer: Bearer,
 }
+#[rustfmt::skip]
+pub type IntentionHole = OpaqueMeaning;
 #[rustfmt::skip]
 pub type Dhatu = String;
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum StemFormation {
     Nic,
     San,
@@ -156,14 +151,16 @@ pub enum StemFormation {
     Namadhatu,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum StemComposition {
     Primary,
     Single(StemFormation),
     CompositionPending(OpaqueMeaning),
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum Lakara {
     Lat,
     Lit,
@@ -177,52 +174,60 @@ pub enum Lakara {
     Lrn,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum LinUse {
     Optative,
     Benedictive,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum Prayoga {
     Kartari,
     Karmani,
     Bhave,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum Purusha {
     Prathama,
     Madhyama,
     Uttama,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum Vachana {
     Eka,
     Dvi,
     Bahu,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum Linga {
     Pum,
     Stri,
     Napumsaka,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum LingaInterpretation {
     Pending,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub struct AgreementForm {
     pub linga: Linga,
     pub linga_interpretation: LingaInterpretation,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum KarakaRole {
     Kartr,
     KarmanKaraka,
@@ -232,13 +237,15 @@ pub enum KarakaRole {
     Adhikarana,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub struct Karaka {
     pub karaka_role: KarakaRole,
     pub karaka_filler: KarakaFiller,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub struct Act {
     pub dhatu: Dhatu,
     pub stem_composition: StemComposition,
@@ -246,24 +253,33 @@ pub struct Act {
     pub prayoga: Prayoga,
     pub purusha: Purusha,
     pub vachana: Vachana,
-    pub agreement_form_option: Option<AgreementForm>,
+    pub agreement_form_option: std::option::Option<AgreementForm>,
     pub karaka_vector: std::vec::Vec<Karaka>,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
+pub enum StatementContent {
+    ProsePolicyPending(OpaqueMeaning),
+    ActPolicyPending(Act),
+}
+#[rustfmt::skip]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub struct Statement {
-    pub opaque_meaning: OpaqueMeaning,
-    pub act_option: Option<Act>,
+    pub statement_content: StatementContent,
     pub subpart_link_vector: std::vec::Vec<SubpartLink>,
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub enum AnnotationBody {
     Prose(OpaqueMeaning),
-    Statement(ContentLink),
+    LinkedStatement(ContentLink),
 }
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
+#[derive(rkyv::Archive, rkyv::Serialize, rkyv::Deserialize, Clone, Debug, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "datom", derive(datom_codec::Datomizable, datom_codec::Composing))]
 pub struct Annotation {
     pub annotation_target: AnnotationTarget,
     pub annotation_body: AnnotationBody,
@@ -271,7 +287,4 @@ pub struct Annotation {
 #[rustfmt::skip]
 pub type RootStatement = SubpartLink;
 #[rustfmt::skip]
-#[derive(datom_codec::Datomizable, datom_codec::Composing, Clone, Debug, PartialEq, Eq, Hash)]
-pub struct RetentionSpecification {
-    pub opaque_meaning: OpaqueMeaning,
-}
+pub type RetentionSpecification = OpaqueMeaning;

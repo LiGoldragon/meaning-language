@@ -1,6 +1,6 @@
 [package]
 name = "meaning-language"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 rust-version = "1.89"
 license = "MIT OR Apache-2.0"
@@ -9,13 +9,26 @@ description = "Proposal Ethos library for a bilingual Sanskrit-English meaning l
 publish = false
 build = "build.rs"
 
+[features]
+default = []
+datom = ["dep:protos"]
+
 [dependencies]
-datom-codec = { git = "https://github.com/LiGoldragon/datom-codec", rev = "09e2a9d52bf7f2f11e51d15cb6c3177f72c6c927", features = ["rkyv"] }
-protos = { git = "https://github.com/LiGoldragon/protos", rev = "1febca7836bf8d5f5973a302fdd50aa9c84c159b" }
+datom-codec = { git = "https://github.com/LiGoldragon/datom-codec", rev = "4dff16b4f7412febc3b71aac8b49680cd20988cb", features = ["rkyv"] }
+protos = { git = "https://github.com/LiGoldragon/protos", rev = "15b41da8f2579e73ead59bc0c2b97529b8ac32d3", features = ["rkyv"], optional = true }
 rkyv = { version = "0.8", default-features = false, features = ["std", "bytecheck", "little_endian", "pointer_width_32", "unaligned"] }
 
 [build-dependencies]
-ethos-zero = { git = "https://github.com/LiGoldragon/ethos-zero", rev = "4bf73cae8d4f5a2072c76a11cd2f00aa3fe9f8e3" }
+ethos-zero = { git = "https://github.com/LiGoldragon/ethos-zero", rev = "c2653dd82adbdb1f1f2f654405c6620e0d06fd58" }
+
+[[test]]
+name = "datom_roundtrip"
+path = "tests/datom_roundtrip.rs"
+required-features = ["datom"]
+
+[[test]]
+name = "archive_roundtrip"
+path = "tests/archive_roundtrip.rs"
 
 [lints.rust]
 unsafe_code = "forbid"

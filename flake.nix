@@ -9,7 +9,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     ethos-zero = {
-      url = "github:LiGoldragon/ethos-zero/4bf73cae8d4f5a2072c76a11cd2f00aa3fe9f8e3";
+      url = "github:LiGoldragon/ethos-zero/c2653dd82adbdb1f1f2f654405c6620e0d06fd58";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
       inputs.rust-build.follows = "rust-build";
@@ -37,13 +37,13 @@
         artifacts = craneLib.buildDepsOnly common;
         remoteCheck = craneLib.cargoTest (common // {
           cargoArtifacts = artifacts;
-          cargoTestExtraArgs = "--test datom_roundtrip -- --nocapture";
+          cargoTestExtraArgs = "--features datom -- --nocapture";
           nativeBuildInputs = [ ethos-zero.packages.${system}.default pkgs.python3 ];
           preBuild = ''
             ethos-zero "Generate.{ $PWD/ethos/meaning.ethos $PWD/src/generated }"
           '';
           postCheck = ''
-            tests/check-glossary-coverage.sh
+            bash tests/check-glossary-coverage.sh
           '';
         });
       in {
