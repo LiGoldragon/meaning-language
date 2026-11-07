@@ -35,19 +35,37 @@
         vendor = craneLib.vendorCargoDeps { src = seededSource; };
         common = { src = seededSource; cargoVendorDirectory = vendor; strictDeps = true; };
         artifacts = craneLib.buildDepsOnly common;
+        # The cargo build script generates from the Ethos with the same ethos-zero
+        # revision the flake pins and asserts the checked-in module equals it, so a
+        # stale src/generated/meaning.rs fails this check; nothing here overwrites it.
         remoteCheck = craneLib.cargoTest (common // {
           cargoArtifacts = artifacts;
           cargoTestExtraArgs = "--features datom -- --nocapture";
-          nativeBuildInputs = [ ethos-zero.packages.${system}.default pkgs.python3 ];
-          preBuild = ''
-            ethos-zero "Generate.{ $PWD/ethos/meaning.ethos $PWD/src/generated }"
-          '';
+          nativeBuildInputs = [ pkgs.python3 ];
           postCheck = ''
             bash tests/check-glossary-coverage.sh
           '';
         });
+        # Default features only: the datom derives and the datom tests are absent.
+        defaultFeatures = craneLib.cargoTest (common // {
+          cargoArtifacts = artifacts;
+          cargoTestExtraArgs = "";
+        });
+        # The generator binary the flake pins, run on the authored Ethos, against the
+        # checked-in module, byte for byte.
+        generatedEquality = pkgs.runCommand "meaning-generated-equality" {
+          nativeBuildInputs = [ ethos-zero.packages.${system}.default ];
+        } ''
+          mkdir generated
+          cp ${./ethos/meaning.ethos} meaning.ethos
+          ethos-zero "Generate.{ $PWD/meaning.ethos $PWD/generated }"
+          diff -u ${./src/generated/meaning.rs} generated/meaning.rs
+          touch $out
+        '';
       in {
         packages.default = craneLib.buildPackage (common // { cargoArtifacts = artifacts; });
         checks.generation-and-datom-roundtrip = remoteCheck;
+        checks.default-features = defaultFeatures;
+        checks.generated-equality = generatedEquality;
       });
 }
